@@ -12,6 +12,7 @@
 		CE7896E02318419B003470A5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE7896DE2318419B003470A5 /* Main.storyboard */; };
 		CE7896E22318419B003470A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE7896E12318419B003470A5 /* Assets.xcassets */; };
 		CE7896E52318419B003470A5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE7896E32318419B003470A5 /* LaunchScreen.storyboard */; };
+		CEC14CB0234FA24800B652C4 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC14CAF234FA24800B652C4 /* MainViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		CE7896E12318419B003470A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE7896E42318419B003470A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE7896E62318419B003470A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEC14CAF234FA24800B652C4 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				CE7896DA2318419B003470A5 /* AppDelegate.swift */,
 				CE7896DC2318419B003470A5 /* ViewController.swift */,
 				CE7896DE2318419B003470A5 /* Main.storyboard */,
+				CEC14CAF234FA24800B652C4 /* MainViewController.swift */,
 				CE7896E12318419B003470A5 /* Assets.xcassets */,
 				CE7896E32318419B003470A5 /* LaunchScreen.storyboard */,
 				CE7896E62318419B003470A5 /* Info.plist */,
@@ -135,6 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEC14CB0234FA24800B652C4 /* MainViewController.swift in Sources */,
 				CE7896DD2318419B003470A5 /* ViewController.swift in Sources */,
 				CE7896DB2318419B003470A5 /* AppDelegate.swift in Sources */,
 			);
