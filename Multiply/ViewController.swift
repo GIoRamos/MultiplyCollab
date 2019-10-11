@@ -13,6 +13,8 @@ class ViewController: UIViewController {
    
     @IBOutlet weak var textField1: UITextField!
     @IBOutlet weak var uiImageView: UIImageView!
+    @IBOutlet weak var textField2: UITextField!
+    @IBOutlet weak var answerLabel: UILabel!
     
     
     override func viewDidLoad() {
@@ -21,12 +23,16 @@ class ViewController: UIViewController {
     }
     
     @IBAction func onButtonTapped(_ sender: Any) {
-        
-        
+    let aInt = Double(textField1.text!)!
+    let bInt = Double(textField2.text!)!
+        let cSquared = (aInt + aInt) + (bInt * bInt)
+        let hypoteneuse = cSquared.squareRoot()
+     answerLabel.text = "The Hypoteneuse Is \(hypoteneuse)"
     }
     
-    @IBAction func textField2(_ sender: Any) {
-    }
+    
+//    let x = 4.0
+//    let y = x.squareRoot()
     
    
     
